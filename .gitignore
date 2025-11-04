@@ -9,7 +9,7 @@
 .augment/rules/byterover-rules.md
 _logs/*
 __pycache__/*
-
+__pycache__
 # Environment variables
 .env
 config.json
