@@ -21,9 +21,9 @@ cp .env.example .env
 Edit `.env` file and update the values:
 
 ```env
-OPENAI_BASE_URL=https://lqd-test1.hpda.vn/v1
+OPENAI_BASE_URL=your-url
 OPENAI_API_KEY=your_api_key_here
-OPENAI_MODEL=Arcee-Vylinh
+OPENAI_MODEL=
 ```
 
 ### 3. Run Demo
@@ -46,7 +46,7 @@ All configuration is done through the `.env` file:
 
 - `OPENAI_BASE_URL`: Base URL for OpenAI-compatible API
 - `OPENAI_API_KEY`: API key for authentication
-- `OPENAI_MODEL`: Model name to use (e.g., "Arcee-Vylinh")
+- `OPENAI_MODEL`: Model name to use (e.g., "Qwen, GPT-4o, Sonnet")
 - `SUMMARY_DEFAULT_TYPE`: Default summary type (abstractive/extractive)
 - `TOOLS_LANGUAGE`: Default language (vietnamese/english)
 - `SUMMARY_MAX_TOKENS`: Maximum tokens for summary

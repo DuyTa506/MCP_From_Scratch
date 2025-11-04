@@ -23,9 +23,9 @@ Create a `config.json` file:
   "llm_config": {
     "enabled": true,
     "provider": "openai",
-    "model_name": "Arcee-Vylinh",
+    "model_name": "",
     "api_key": "your_api_key",
-    "base_url": "https://lqd-test1.hpda.vn/v1",
+    "base_url": "",
     "default_temperature": 0.7,
     "default_max_tokens": 2000
   },

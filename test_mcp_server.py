@@ -365,9 +365,9 @@ def create_default_config(config_file: Path):
         "llm_config": {
             "enabled": True,
             "provider": "openai",
-            "model_name": os.getenv("OPENAI_MODEL", "Arcee-Vylinh"),
+            "model_name": os.getenv("OPENAI_MODEL", ""),
             "api_key": os.getenv("OPENAI_API_KEY", ""),
-            "base_url": os.getenv("OPENAI_BASE_URL", "https://lqd-test1.hpda.vn/v1"),
+            "base_url": os.getenv("OPENAI_BASE_URL", ""),
             "default_temperature": 0.7,
             "default_max_tokens": 2000
         },
