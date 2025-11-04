@@ -1,0 +1,26 @@
+# Core dependencies
+python-dotenv>=1.0.0
+
+# OpenAI LLM support (required for OpenAI provider)
+openai>=1.0.0
+
+# Optional dependencies (install as needed)
+
+# Token counting (optional, improves token estimation accuracy)
+# tiktoken>=0.5.0
+
+# Transformers (optional, for huggingface compatible models tokenizer)
+# transformers>=4.30.0
+# torch>=2.0.0
+
+# LangChain (optional, for advanced text splitting)
+# langchain>=0.1.0
+# langchain-text-splitters
+
+# Ollama LLM support (optional, for local inference)
+# ollama>=0.1.0
+# requests>=2.31.0
+
+# vLLM support (optional, for local inference)
+# vllm>=0.2.0
+
