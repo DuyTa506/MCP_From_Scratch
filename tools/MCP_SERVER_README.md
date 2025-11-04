@@ -1,6 +1,6 @@
 # MCP Server for IntraMind Tools
 
-This file describes how to use the MCP (Model Context Protocol) Server to expose IntraMind tools.
+This file describes how to use the MCP (Model Context Protocol) Server to expose tools.
 
 ## Overview
 
