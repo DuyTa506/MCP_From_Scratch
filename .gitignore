@@ -7,9 +7,14 @@
 .kiro/steering/byterover-rules.md
 .qoder/rules/byterover-rules.md
 .augment/rules/byterover-rules.md
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Logs
 _logs/*
-__pycache__/*
-__pycache__
 # Environment variables
 .env
 config.json
